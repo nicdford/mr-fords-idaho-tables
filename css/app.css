@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,600);
+
+h1, h2, h3, h4, h5, h6, p, span {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+h2 {
+	text-transform: uppercase;
+	letter-spacing: 14px;
+}
+
+h2 span {
+	display: block;
+	font-size: 16px;
+}
+
+body {
+	background-color: #EBE2D5;
+}
+
+.logo {
+	margin: 1em auto;
+	display: block;
+}
+
+.product {
+	background-color: #F0E9DE;
+	padding: 1em 1em 1.4em;
+	margin: 2em auto;
+}
+
+.branding h1 {
+	position: absolute;
+	left: -9999999px;
+	top: -9999999px;
+}
+
+.footer {
+	padding: .8em 0;
+	font-size: 80%;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.buy-now {
+	text-transform: uppercase;
+	font-size: 80%;
+	letter-spacing: 2px;
+}
+
+.product .columns:first-child {
+	text-align: right;
+}
+
+.product img {
+	margin: -5em 0;
+    width: 300px;
+}

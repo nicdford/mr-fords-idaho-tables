@@ -1,1 +1,57 @@
-Hello World
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mr. Ford's Idaho Tables | Custom Built Idaho Tables</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body>
+
+    <div class="row branding">
+      <div class="large-12 columns">
+          <img src="img/mr-fords-idaho-tables-logo-trans.png" class="logo">
+          <h1>Mr. Ford's Idaho Tables</h1>
+      </div>
+    </div>
+
+    <div class="product">
+        <div class="row">
+            
+            <div class="large-6 columns">
+                <h2><span>Handmade</span>Idaho Table</h2>
+                <p>Hand crafted in Eagle, Idaho the Idaho Table is the perfect addition to your home or office.</p>
+                <span class="buy-now">Buy Now</span>
+                <h3>$75<sup>00</sup></h3>
+                <form action="/charge" method="POST">
+                    <script
+                        src="https://checkout.stripe.com/checkout.js"
+                        class="stripe-button"
+                        data-key="pk_test_6pRNASCoBOKtIshFeQd4XMUh"
+                        data-image="/square-image.png"
+                        data-name="Idaho Table"
+                        data-description="An Idaho Table ($75.00)"
+                        data-amount="2000">
+                    </script>
+                </form>
+            </div>
+            <div class="large-6 columns">
+                <img src="img/idaho-table.png">
+            </div>
+        </div>          
+    </div>
+
+    <div class="row footer">
+        <div class="large-12 columns">
+            <p>The official site of the Idaho Table. &copy; 2015 Mr. Ford's Idaho Tables.</p>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/what-input.min.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
