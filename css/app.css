@@ -10,6 +10,10 @@ h2 {
 	letter-spacing: 14px;
 }
 
+h2:first-child {
+	margin-top: 30px;
+}
+
 h2 span {
 	display: block;
 	font-size: 16px;
@@ -27,7 +31,7 @@ body {
 .product {
 	background-color: #F0E9DE;
 	padding: 1em 1em 1.4em;
-	margin: 2em auto;
+	margin: 2em auto 3em;
 }
 
 .branding h1 {
@@ -47,6 +51,14 @@ body {
 	text-transform: uppercase;
 	font-size: 80%;
 	letter-spacing: 2px;
+	line-height: 1.4;
+	display: block;
+
+}
+
+sup {
+	font-size: 50%;
+	top: -0.8em;
 }
 
 .product .columns:first-child {
